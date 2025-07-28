@@ -6,7 +6,7 @@ import json
 import logging
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'ae48e403ae87dcad97d402b87ef9459b236d42e1d89aeefa'
+#app.config['SECRET_KEY'] = 'ae48e403ae87dcad97d402b87ef9459b236d42e1d89aeefa'
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
